@@ -30,18 +30,33 @@
 </head>
 
 <body>
-  <style>@media only screen and (max-width: 576px) {
+  <style>
+    span.indent {
+      margin-left: 30px;
+    }
+    #faq p{
+      margin-left: 20px;
+    }
+    .navbar li{
+      margin: -15px 0px;
+    }
+  @media only screen and (max-width: 576px) {
     #about {
+      padding-top: 40px;
       width: 92%;
     }
     .about .about-content {
     padding: 0px;
     margin: 5px -40px;
     }
-  }</style>
+    #portfolio .container {
+    margin-top:-40px;
+    }
+  }
+  </style>
 
   <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center">
+  <!-- <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
           <i class="bi bi-envelope-fill"></i><a href="mailto:smkn1boyolangu@yahoo.co.id">smkn1boyolangu@yahoo.co.id</a>
@@ -52,7 +67,7 @@
         <a href="https://www.youtube.com/channel/UC-WdSHOrqKaiM285ojxY7OQ" class="youtube"><i class="bi bi-youtube"></i></a>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
@@ -67,7 +82,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li> <a class="nav-link scrollto" href="#">Drop Down</a></li>
+          <li><a class="nav-link scrollto" href="#faq">opo</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -77,16 +92,16 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
+  <section id="hero" style="height: 570px; background-color: white;">
     <div class="hero-container">
       <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <ol class="carousel-indicators" id="hero-carousel-indicators" style="padding-bottom: 10px;"></ol>
 
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url('assets/img/dkv1.jpg');">
+          <div class="carousel-item active" style=" height: 570px; background-image: url('assets/img/dkv1.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
               </div>
@@ -94,7 +109,7 @@
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url('assets/img/dkv2.jpg');">
+          <div class="carousel-item" style="height: 570px; background-image: url('assets/img/dkv2.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
               </div>
@@ -102,7 +117,7 @@
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url('assets/img/dkv3.jpg');">
+          <div class="carousel-item" style="height: 570px; background-image: url('assets/img/dkv3.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
               </div>
@@ -146,18 +161,18 @@
         </div>
     </section><!-- End About Us Section -->
     <!-- ======= Our Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
+    <section id="portfolio" class="portfolio section-bg" >
+      <div class="container" data-aos="fade-up" data-aos-delay="100" >
+        <!-- <div class="row">
           <div class="col-lg-12">
-        
+            
           </div>
-        </div>
+        </div> -->
 
-        <div class="row portfolio-container">
+      <!-- <div class="card" style="background-color: white;"> -->
+        <div class="row portfolio-container" >
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="background-color: white;">
             <div class="portfolio-wrap">
               <img src="assets/img/dkv1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -224,7 +239,7 @@
           </div>       
 
         </div>
-
+      <!-- </div> -->
       </div>
     </section><!-- End Our Portfolio Section -->
 
@@ -233,30 +248,30 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Narasi Perkembangan Kemampuan Anak Dkv   </h2>
+          <h2>Perkembangan Kemampuan Anak DKV</h2>
         </div>
 
-        <div class="row  d-flex align-items-stretch">
+        <div class="dkv row  d-flex align-items-stretch" style="text-align:justify;">
 
           <div class="col-lg-6 faq-item" data-aos="fade-up">
-            <h4>2. seberapa besar potensi produk di pasaran :</h4>
+            <h4>1. Seberapa Besar Potensi Produk Di Pasaran :</h4>
             <p>
-              Advertising atau periklanan merupakan usaha yang terus berkembang terlebih dengan banyaknya produk-produk baru yang bermunculan dipasaran hal itu-pun menjadi perluang usaha yang terbuka lebar bagi siapa saja yang ingin menggeluti usaha periklanan ini. Dengan melihat situasi sekarang ini usaha yang kami buat sangat berpengaruh terhadap cara berkomunikasi modern saat ini yang sering menggunakan media digital sebagai alat penyampaiannya. SMK Negeri 1 Boyolangu memiliki program keahlian Desain Komunikasi Visual dengan unit produksi yang menghasilkan produk awal yaitu Year Book dan sampul Ijazah. Melalui program link and match unit produksi Desain Komunikasi Visual ini bekerja sama dengan DUDIKA pasangan dalam hal produksi.
+                <span class="indent">Advertising</span> atau periklanan merupakan usaha yang terus berkembang terlebih dengan banyaknya produk-produk baru yang bermunculan dipasaran hal itu-pun menjadi perluang usaha yang terbuka lebar bagi siapa saja yang ingin menggeluti usaha periklanan ini. Dengan melihat situasi sekarang ini usaha yang kami buat sangat berpengaruh terhadap cara berkomunikasi modern saat ini yang sering menggunakan media digital sebagai alat penyampaiannya. SMK Negeri 1 Boyolangu memiliki program keahlian Desain Komunikasi Visual dengan unit produksi yang menghasilkan produk awal yaitu Year Book dan sampul Ijazah. Melalui program link and match unit produksi Desain Komunikasi Visual ini bekerja sama dengan DUDIKA pasangan dalam hal produksi.
             </p>
           </div>
 
           <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="100">
-            <h4>3.Kondisi smk saat ini :</h4>
+            <h4>2. Kondisi SMK Saat Ini :</h4>
             <p>
-              Profil sekolah ditambah 
+              <span class="indent">Profil</span> sekolah ditambah 
               Creative Agency and production yang bergerak untuk mengembangkan media berupa desain grafis, fotografi, videografi dan media digital. Unit produksi ini merupakan kolaborasi dari berbagai kompetensi keahlian di SMK Negeri 1 Boyolangu. Multimedia dan Broadcasting dalam hal pengambilan video dan gambar, kemudian DKV dalam pembuatan desain. Selanjutnya untuk pelayanan public dalam hal digital Marketing maupun pelayanan secara langsung dikelola oleh program keahlian BDP dan OTKP. Pembukuan dan pengelolaan keuangan oleh program keahlian AKL. Kolaborasi antar jurusan disekolah ini sejalan dengan prinsip Link nad Match
             </p>
           </div>
 
           <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="200">
-            <h4>4. Keunggulan produk : kita hadir dengan</h4>
+            <h4>3. Keunggulan produk : kita hadir dengan</h4>
             <p>
-              Performance (kinerja) yang professional
+              <span class="indent">Performance</span> (kinerja) yang professional
               Customization (Desain sesuai permintaan pelanggan)
               Price (Harga fleksibel dan terjangkau)
               Accesibility (akses yang mudah dgn bias dipesan secara online)
@@ -264,17 +279,20 @@
           </div>
 
           <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="300">
-            <h4>5. Alasan sekolah berhak menerima bantuan new tefa ini :</h4>
+            <h4>4. Alasan sekolah berhak menerima bantuan new tefa ini :</h4>
             <p>
-              SMK Negeri 1 Boyolangu adalah sekolah dengan 11 Program Keahlian yang sedang bertansformasi dari Bismen ke  Bisnis Digital School .Kegiatan Tefa disekolah kami adalah kolaborasi dari 11 program keahlian yang kami namakan Super Tefa Team. Kegiatan tefa ini merupakan gabungan dari proses pembelajaran PJBL untuk menggali penguasaan kompetensi siswa secara utuh melalui pendekatan bisnis.Sekolah kami juga mendapatkan kepercayaan dari industri terbukti dari keterserapan lulusan. 
+              <span class="indent">SMK</span> Negeri 1 Boyolangu adalah sekolah dengan 11 Program Keahlian yang sedang bertansformasi dari Bismen ke  Bisnis Digital School .Kegiatan Tefa disekolah kami adalah kolaborasi dari 11 program keahlian yang kami namakan Super Tefa Team. Kegiatan tefa ini merupakan gabungan dari proses pembelajaran PJBL untuk menggali penguasaan kompetensi siswa secara utuh melalui pendekatan bisnis.Sekolah kami juga mendapatkan kepercayaan dari industri terbukti dari keterserapan lulusan. 
             </p>
           </div>
 
           <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="400">
-            <h4>6. Channel </h4>
+            <h4>5. Channel </h4>
             <p>
-              a) langsung  : menggunakan chanel sendiri  baik online maupun offline ( pelayanan langsung melalui business centre ) ini bias menjangkau Instansi sekolah dan pemerintahan,UKM (katalog produk,company profile, konten pemasaran berupa poto dan video)
-              b) tidak langsung : melalui chanel mitra/Dudika (sewa mesin dan bagian pemasaran )
+              <span class="indent">a)</span> langsung  : menggunakan chanel sendiri  baik online maupun offline ( pelayanan langsung melalui business centre ) ini bias menjangkau Instansi sekolah dan pemerintahan,UKM (katalog produk,company profile, konten pemasaran berupa poto dan video)
+            </p>
+
+            <p>
+              <span class="indent">b)</span> tidak langsung : melalui chanel mitra/Dudika (sewa mesin dan bagian pemasaran )
             </p>
           </div>
 
@@ -303,9 +321,10 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#hero">Home</a></li>
-              <li><a href="#about">About us</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+              <li><a class="nav-link scrollto" href="#faq">opo</a></li>
             </ul>
           </div>
 
